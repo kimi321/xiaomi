@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.header-box {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left div {
+    font-size: 14px;
+    color: #6f95b0;
+    padding: 0 10px;
+    border-right: 1px solid #3f423c;
+}
+
+.header .header-right {
+    color:#6f95b0;
+    display:flex;
+    height: 100%;
+    align-items: center;
+}
+.header .header-right div{
+    font-size:  14px;
+    color:#6f95b0;
+    padding:0 10px;
+    border-right: 1px solid #3f423c;
+}
+
+.logo-box {
+    width: 1230px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.logo-box-left{
+
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.logo-box-left .logo-wrap{
+    width: 56px;
+    height: 56px;
+    background-color: #ff6700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box-middle{
+    height:100%;
+    display:flex;
+    align-items:center ;
+    flex: 1;
+    justify-content: center;
+}
+.logo-box-middle div{
+    font-size: 14px;
+    color:#333333;
+    padding:0 10px;
+}
+.logo-box-right{
+    height:100%;
+    display:flex;
+    align-items:center ;
+}
+
+.logo-box-right .search-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.logo-box-right .search-form .search-input{
+    width: 245px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
+.logo-box-right .search-form .search-btn{
+    width:50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+.logo-box-right .search-form .label-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+}
+
+.logo-box-right .search-form .label-wrap p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18px;
+    background-color: #eeeeee;
+    color: #757575;
+    font-size: 12px;
+    padding: 0 6px;
+    margin-right: 5px;
+}
+
+
